@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Runs on Ubuntu 18.
 apt install -y ansible
 which ansible
 ANSIBLE_RETURN=$?
@@ -11,3 +12,11 @@ then
 else
 	echo "Found Ansible.  Continuing..."
 fi
+
+# Add Running of Ansible playbooks
+
+# Add hardening machines
+
+# Add copy of administration keys (Mr. Jones // Ms. Corcoran)
+
+# Add periodic updates from local repos
